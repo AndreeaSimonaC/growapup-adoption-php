@@ -16,7 +16,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['request-adoption'])) {
     $message .= "Comments:\n$comments";
 
     // Recipient email address
-    $to = "andreeasimciobanu1@gmail.com"; // Replace with the actual recipient's email address
+    $to = "andreeasimciobanu1@gmail.com"; //actual recipient's email address
 
     // Additional headers
     $headers = "From: $email" . "\r\n" .
